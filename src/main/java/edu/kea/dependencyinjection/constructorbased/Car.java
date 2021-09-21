@@ -18,9 +18,4 @@ public class Car {
 
         System.out.println(type + turbo + brand);
     }
-
-    public Car() {
-        Car car = new Car();
-
-    }
 }

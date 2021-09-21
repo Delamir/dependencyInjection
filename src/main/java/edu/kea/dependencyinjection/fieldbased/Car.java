@@ -22,7 +22,7 @@ public class Car {
     }
 
     public Car() {
-        edu.kea.dependencyinjection.constructorbased.Car car = new edu.kea.dependencyinjection.constructorbased.Car();
+        edu.kea.dependencyinjection.fieldbased.Car car = new edu.kea.dependencyinjection.fieldbased.Car();
 
     }
 }

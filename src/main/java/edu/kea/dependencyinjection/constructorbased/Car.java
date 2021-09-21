@@ -1,4 +1,4 @@
-package edu.kea.dependencyinjection.models;
+package edu.kea.dependencyinjection.constructorbased;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-public class Engine {
+public class ElectricEngine {
 
     @Bean
     public String type() {

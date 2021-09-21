@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Car {
+public class ElectricCar {
 
     @Autowired
     String type;
@@ -13,7 +13,7 @@ public class Car {
     @Autowired
     String brand;
 
-    public Car (String type, boolean turbo, String brand) {
+    public ElectricCar(String type, boolean turbo, String brand) {
         this.type = type;
         this.turbo = turbo;
         this.brand = brand;
@@ -21,8 +21,7 @@ public class Car {
         System.out.println(type + turbo + brand);
     }
 
-    public Car() {
-        edu.kea.dependencyinjection.fieldbased.Car car = new edu.kea.dependencyinjection.fieldbased.Car();
+    public ElectricCar() {
 
     }
 }

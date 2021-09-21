@@ -8,10 +8,8 @@ public class Car {
 
     @Autowired
     String type;
-
     @Autowired
     boolean turbo;
-
     @Autowired
     String brand;
 

@@ -1,4 +1,4 @@
-package edu.kea.dependencyinjection.models;
+package edu.kea.dependencyinjection.constructorbased;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

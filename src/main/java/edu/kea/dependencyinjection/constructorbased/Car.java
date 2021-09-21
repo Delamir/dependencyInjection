@@ -1,4 +1,4 @@
-package edu.kea.dependencyinjection.constructorbased;
+package edu.kea.dependencyinjection.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,4 +19,8 @@ public class Car {
         System.out.println(type + turbo + brand);
     }
 
+    public Car() {
+        Car car = new Car();
+
+    }
 }

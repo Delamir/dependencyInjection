@@ -13,6 +13,7 @@ public class ElectricCar {
     @Autowired
     String brand;
 
+
     public ElectricCar(String type, boolean turbo, String brand) {
         this.type = type;
         this.turbo = turbo;

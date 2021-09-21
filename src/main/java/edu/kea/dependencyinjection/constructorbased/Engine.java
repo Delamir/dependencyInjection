@@ -11,7 +11,6 @@ public class Engine {
         return "v8";
     }
 
-
     @Bean
     public boolean turbo() {
         return true;

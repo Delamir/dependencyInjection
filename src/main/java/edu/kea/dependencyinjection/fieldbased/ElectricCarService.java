@@ -24,6 +24,4 @@ public class ElectricCarService {
         System.out.println("ElectricCarService argument constructor called");
         this.electricCar = electricCar;
     }
-
-
 }

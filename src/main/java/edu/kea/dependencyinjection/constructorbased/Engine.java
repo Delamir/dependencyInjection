@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("edu.kea.dependencyinjection.constructorbased")
+@ComponentScan
 public class Engine {
 
     @Bean
@@ -22,4 +22,12 @@ public class Engine {
     public String brand() {
         return "Audi";
     }
+
+
+
+
+
+
+    @Bean
+    public String superCar() { return  "Ferrari"; }
 }

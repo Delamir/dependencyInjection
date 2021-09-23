@@ -8,16 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class CarController {
 
 
-    private CarService c;
-
-    @Autowired
-    public void setC(CarService c) {
-        this.c = c;
-    }
+    private CarService carService;
 
     @GetMapping("/ligemeget")
     public String getCars() {
-        return c.getCar();
+        return carService.getCar();
+    }
+
+    @Autowired
+    public void setC(CarService carService) {
+        this.carService = carService;
     }
 
 

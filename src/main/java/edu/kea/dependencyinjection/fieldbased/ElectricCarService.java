@@ -1,27 +1,17 @@
 package edu.kea.dependencyinjection.fieldbased;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
-
-@Component
+@Service
 public class ElectricCarService {
 
     @Autowired
-    private ElectricCar electricCar;
+    private ElectricCarRepo electricCarRepo;
 
-    public void setElectricCar(ElectricCar electricCar) {
-        System.out.println("ElectricCar setter called");
-        this.electricCar = electricCar;
+    String getBrand(){
+        return electricCarRepo.brand();
     }
 
-    public ElectricCarService() {
-        System.out.println("ElectricCarService no argument constructor called");
-    }
 
-    public ElectricCarService(ElectricCar electricCar) {
-        System.out.println("ElectricCarService argument constructor called");
-        this.electricCar = electricCar;
-    }
 }

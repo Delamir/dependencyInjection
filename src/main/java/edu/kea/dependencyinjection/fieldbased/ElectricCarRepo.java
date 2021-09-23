@@ -1,9 +1,9 @@
 package edu.kea.dependencyinjection.fieldbased;
 
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Repository;
 
-@Configuration
-public class ElectricCar {
+@Repository
+public class ElectricCarRepo {
 
     public String brand() {
         return "Mercedes";
